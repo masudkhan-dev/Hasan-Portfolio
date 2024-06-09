@@ -1,15 +1,4 @@
 import Marquee from "react-fast-marquee";
-import {
-  FaBootstrap,
-  FaNodeJs,
-  FaReact,
-  FaWordpress,
-  FaPhp,
-} from "react-icons/fa";
-
-import { SiExpress, SiTypescript } from "react-icons/si";
-import { DiMongodb } from "react-icons/di";
-import { TbBrandRedux } from "react-icons/tb";
 
 // svg files
 import figma from "../../../public/Service/figma.1029bdd0.svg";
@@ -24,6 +13,16 @@ import git from "../../../public/Service/git.50ce77c0.svg";
 import mongoDB from "../../../public/Service/mongoDB.bdbfe282.svg";
 import react from "../../../public/Service/react.63480b3c.svg";
 import nextJS from "../../../public/Service/nextJS.5d08e3a4.svg";
+import nodeJS from "../../../public/Service/Node.js.svg";
+import redux from "../../../public/Service/redux-svgrepo-com.svg";
+import wordpress from "../../../public/Service/wordpress-icon.svg";
+import php from "../../../public/Service/new-php-logo.svg";
+import expressJS from "../../../public/Service/express-svgrepo-com.svg";
+import github from "../../../public/Service/github-142-svgrepo-com.svg";
+import bun from "../../../public/Service/Bun.svg";
+import npm from "../../../public/Service/NPM.svg";
+import vscode from "../../../public/Service/Visual Studio Code (VS Code).svg";
+import photoshop from "../../../public/Service/Adobe_Photoshop_CC_icon.svg";
 
 const Service = () => {
   return (
@@ -38,7 +37,7 @@ const Service = () => {
             </h2>
             <div className="bg-[#06223F] h-2 md:h-4 w-24 md:w-32"></div>
           </div>
-          <h2 className="text-[#06223f31] font-bold text-6xl md:text-9xl-mt-2 uppercase">
+          <h2 className="text-[#06223f31] font-bold text-5xl md:text-9xl-mt-2 uppercase">
             My Services
           </h2>
         </div>
@@ -52,27 +51,33 @@ const Service = () => {
               delay={0}
               play={true}
               direction="left"
-              className="flex gap-5"
             >
-              <img src={html} alt="" className="w-20 h-20" />
-              <img src={css} alt="" className="w-20 h-20" />
-              <img src={bootstrap} alt="" className="w-20 h-20" />
-              <img src={tailwind} alt="" className="w-20 h-20" />
-              <img src={javascript} alt="" className="h-20 w-20" />
-              <img src={Typescript} alt="" className="h-20 w-20" />
+              <div className="flex gap-10">
+                <img src={html} alt="" className="w-20 h-20" />
+                <img src={css} alt="" className="w-20 h-20" />
+                <img src={bootstrap} alt="" className="w-20 h-20" />
+                <img src={tailwind} alt="" className="w-20 h-20" />
+                <img src={javascript} alt="" className="h-20 w-20" />
+                <img src={Typescript} alt="" className="h-20 w-20" />
+                <img src={react} alt="" className="h-20 w-20" />
+                <img src={redux} alt="" className="h-20 w-20" />
+                <img src={nextJS} alt="" className="h-20 w-20" />
 
-              <TbBrandRedux className="text-6xl md:text-9xl font-bold text-[#06223f31] ml-5" />
-              <FaNodeJs className="text-6xl md:text-9xl font-bold text-[#06223f31] ml-5" />
-              <SiExpress className="text-6xl md:text-9xl font-bold text-[#06223f31] ml-5" />
-              <FaWordpress className="text-6xl md:text-9xl font-bold text-[#06223f31] ml-5" />
-              <FaPhp className="text-6xl md:text-9xl font-bold text-[#06223f31] ml-5" />
+                <img src={nodeJS} alt="" className="h-20 w-20" />
+                <img src={expressJS} alt="" className="h-20 w-20" />
+                <img src={mongoDB} alt="figma" className="w-20 h-20" />
+                <img src={php} alt="" className="h-20 w-20" />
+                <img src={wordpress} alt="" className="h-20 w-20" />
 
-              <img src={mongoDB} alt="figma" className="w-20 h-20" />
-              <img src={figma} alt="figma" className="w-20 h-20" />
-              <img src={firebase} alt="" className="h-20 w-20" />
-              <img src={git} alt="" className="h-20 w-20" />
-              <img src={react} alt="" className="h-20 w-20" />
-              <img src={nextJS} alt="" className="h-20 w-20" />
+                <img src={photoshop} alt="" className="h-20 w-20" />
+                <img src={figma} alt="figma" className="w-20 h-20" />
+                <img src={firebase} alt="" className="h-20 w-20" />
+                <img src={git} alt="" className="h-20 w-20" />
+                <img src={github} alt="" className="h-20 w-20" />
+                <img src={bun} alt="" className="h-20 w-20" />
+                <img src={npm} alt="" className="h-20 w-20" />
+                <img src={vscode} alt="" className="h-20 w-20 mr-10" />
+              </div>
             </Marquee>
           </div>
         </div>
