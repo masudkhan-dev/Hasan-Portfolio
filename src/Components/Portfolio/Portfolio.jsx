@@ -8,16 +8,18 @@ const Portfolio = () => {
         <div className="mt-5">
           {/* Title */}
 
-          <div className="mt-10 mx-5">
-            <div className="flex justify-start items-center gap-5 ">
+          <div className="mt-10 mx-5 ">
+            <div className="flex justify-end items-center gap-5 ">
+              <div className="bg-[#06223F] h-2 md:h-4 w-24 md:w-32"></div>
               <h2 className="text-2xl md:text-4xl text-title font-extrabold uppercase">
                 My Portfolio
               </h2>
-              <div className="bg-[#06223F] h-2 md:h-4 w-24 md:w-32"></div>
             </div>
-            <h2 className="text-[#06223f31] font-bold text-3xl md:text-5xl -mt-2 uppercase">
-              My Portfolio
-            </h2>
+            <div className="flex justify-end">
+              <h2 className="text-[#06223f31] font-bold text-3xl md:text-5xl -mt-2 uppercase">
+                My Portfolio
+              </h2>
+            </div>
           </div>
 
           {/* Body */}
