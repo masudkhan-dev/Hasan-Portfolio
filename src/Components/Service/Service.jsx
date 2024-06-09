@@ -52,31 +52,119 @@ const Service = () => {
               play={true}
               direction="left"
             >
-              <div className="flex gap-10">
-                <img src={html} alt="" className="w-20 h-20" />
-                <img src={css} alt="" className="w-20 h-20" />
-                <img src={bootstrap} alt="" className="w-20 h-20" />
-                <img src={tailwind} alt="" className="w-20 h-20" />
-                <img src={javascript} alt="" className="h-20 w-20" />
-                <img src={Typescript} alt="" className="h-20 w-20" />
-                <img src={react} alt="" className="h-20 w-20" />
-                <img src={redux} alt="" className="h-20 w-20" />
-                <img src={nextJS} alt="" className="h-20 w-20" />
+              <div className="flex gap-1 md:gap-10">
+                <img
+                  src={html}
+                  alt=""
+                  className="h-16 md:h-20 w-16 md:w-20 mr-10"
+                />
+                <img
+                  src={css}
+                  alt=""
+                  className="h-16 md:h-20 w-16 md:w-20 mr-10"
+                />
+                <img
+                  src={bootstrap}
+                  alt=""
+                  className="h-16 md:h-20 w-16 md:w-20 mr-10"
+                />
+                <img
+                  src={tailwind}
+                  alt=""
+                  className="h-16 md:h-20 w-16 md:w-20 mr-10"
+                />
+                <img
+                  src={javascript}
+                  alt=""
+                  className="h-16 md:h-20 w-16 md:w-20 mr-10"
+                />
+                <img
+                  src={Typescript}
+                  alt=""
+                  className="h-16 md:h-20 w-16 md:w-20 mr-10"
+                />
+                <img
+                  src={react}
+                  alt=""
+                  className="h-16 md:h-20 w-16 md:w-20 mr-10"
+                />
+                <img
+                  src={redux}
+                  alt=""
+                  className="h-16 md:h-20 w-16 md:w-20 mr-10"
+                />
+                <img
+                  src={nextJS}
+                  alt=""
+                  className="h-16 md:h-20 w-16 md:w-20 mr-10"
+                />
 
-                <img src={nodeJS} alt="" className="h-20 w-20" />
-                <img src={expressJS} alt="" className="h-20 w-20" />
-                <img src={mongoDB} alt="figma" className="w-20 h-20" />
-                <img src={php} alt="" className="h-20 w-20" />
-                <img src={wordpress} alt="" className="h-20 w-20" />
+                <img
+                  src={nodeJS}
+                  alt=""
+                  className="h-16 md:h-20 w-16 md:w-20 mr-10"
+                />
+                <img
+                  src={expressJS}
+                  alt=""
+                  className="h-16 md:h-20 w-16 md:w-20 mr-10"
+                />
+                <img
+                  src={mongoDB}
+                  alt="figma"
+                  className="h-16 md:h-20 w-16 md:w-20 mr-10"
+                />
+                <img
+                  src={php}
+                  alt=""
+                  className="h-16 md:h-20 w-16 md:w-20 mr-10"
+                />
+                <img
+                  src={wordpress}
+                  alt=""
+                  className="h-16 md:h-20 w-16 md:w-20 mr-10"
+                />
 
-                <img src={photoshop} alt="" className="h-20 w-20" />
-                <img src={figma} alt="figma" className="w-20 h-20" />
-                <img src={firebase} alt="" className="h-20 w-20" />
-                <img src={git} alt="" className="h-20 w-20" />
-                <img src={github} alt="" className="h-20 w-20" />
-                <img src={bun} alt="" className="h-20 w-20" />
-                <img src={npm} alt="" className="h-20 w-20" />
-                <img src={vscode} alt="" className="h-20 w-20 mr-10" />
+                <img
+                  src={photoshop}
+                  alt=""
+                  className="h-16 md:h-20 w-16 md:w-20 mr-10"
+                />
+                <img
+                  src={figma}
+                  alt="figma"
+                  className="h-16 md:h-20 w-16 md:w-20 mr-10"
+                />
+                <img
+                  src={firebase}
+                  alt=""
+                  className="h-16 md:h-20 w-16 md:w-20 mr-10"
+                />
+                <img
+                  src={git}
+                  alt=""
+                  className="h-16 md:h-20 w-16 md:w-20 mr-10"
+                />
+                <img
+                  src={github}
+                  alt=""
+                  className="h-16 md:h-20 w-16 md:w-20 mr-10"
+                />
+                <img
+                  src={bun}
+                  alt=""
+                  className="h-16 md:h-20 w-16 md:w-20 mr-10"
+                />
+                <img
+                  src={npm}
+                  alt=""
+                  className="h-16 md:h-20 w-16 md:w-20 mr-10"
+                />
+                <img
+                  src={vscode}
+                  alt="vscode"
+                  className="h-16 md:h-20 w-16 md:w-20 mr-10 md:mr-16 "
+                />
               </div>
             </Marquee>
           </div>
